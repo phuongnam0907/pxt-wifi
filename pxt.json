@@ -3,7 +3,8 @@
     "version": "1.0.1",
     "description": "Connect micro:bit to the Internet with a WiFi:bit module.",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
@@ -12,5 +13,9 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
